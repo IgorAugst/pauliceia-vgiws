@@ -40,7 +40,7 @@ from models.db_connection import PGSQLConnection
 __PATH_SQL_SCHEMA_FILE__ = ROOT_PROJECT_PATH + "/files/db/sql/schema/02_create_schema_db_for_postgresql.sql"
 __PATH_SQL_TRIGGER_FILE__ = ROOT_PROJECT_PATH + "/files/db/sql/03_create_triggers.sql"
 __PATH_SQL_INSERT_FILE__ = ROOT_PROJECT_PATH + "/files/db/sql/04_insert_test_values.sql"
-__PATH_SQL_INSERT_FILE_PRODUCTION__ = ROOT_PROJECT_PATH + "/files/db/sql/secreto/04_insert_production_values.sql"
+__PATH_SQL_INSERT_FILE_PRODUCTION__ = ROOT_PROJECT_PATH + "/files/db/sql/04_insert_test_values.sql"
 
 
 def remove_comments_from_sql_file(sql_file):
